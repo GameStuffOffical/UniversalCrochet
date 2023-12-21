@@ -2,10 +2,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universal Crochet</title>
+    <title>Universal Crochet</title> <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Stitches: <span id="stitches">0</span></h1>
+    <button id="crochet button" onclick="crochetStitch()">Crochet</button>
+
+    <h2>Business</h2>
+    <div>Money: $<span id="money">0</span></div>
+
+    <h2>Manufacturing</h2>
+    <div><button id="buy-yarn">Yarn</button>: <span id="yarn">1000</span></div>
+    <div>Cost: $<span id="yarn-cost">5</span></div>
+
 </body>
-<script>window.prompt("Enter something here.")</script>
+<script src="main.js"></script>
 </html>
